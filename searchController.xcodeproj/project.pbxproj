@@ -13,6 +13,7 @@
 		523E737A19EA7CB200036E15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523E737919EA7CB200036E15 /* Images.xcassets */; };
 		523E737D19EA7CB200036E15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 523E737B19EA7CB200036E15 /* LaunchScreen.xib */; };
 		523E738919EA7CB200036E15 /* searchControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E738819EA7CB200036E15 /* searchControllerTests.swift */; };
+		523E739319EA9AD900036E15 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E739219EA9AD900036E15 /* CountryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		523E738219EA7CB200036E15 /* searchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523E738719EA7CB200036E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523E738819EA7CB200036E15 /* searchControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchControllerTests.swift; sourceTree = "<group>"; };
+		523E739219EA9AD900036E15 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				523E737219EA7CB200036E15 /* AppDelegate.swift */,
 				523E737419EA7CB200036E15 /* ViewController.swift */,
+				523E739219EA9AD900036E15 /* CountryTableViewCell.swift */,
 				523E737619EA7CB200036E15 /* Main.storyboard */,
 				523E737919EA7CB200036E15 /* Images.xcassets */,
 				523E737B19EA7CB200036E15 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523E739319EA9AD900036E15 /* CountryTableViewCell.swift in Sources */,
 				523E737519EA7CB200036E15 /* ViewController.swift in Sources */,
 				523E737319EA7CB200036E15 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				523E738E19EA7CB200036E15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		523E738F19EA7CB200036E15 /* Build configuration list for PBXNativeTarget "searchControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				523E739119EA7CB200036E15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
